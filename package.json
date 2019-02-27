@@ -24,14 +24,15 @@
     "domready": "^1.0.8",
     "glsl-noise": "0.0.0",
     "gsap": "^2.0.2",
+    "npm-install-missing": "^0.1.4",
     "stats.js": "^0.17.0",
     "three": "^0.98.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.52",
+    "@babel/core": "^7.3.3",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0-rc.1",
     "@babel/polyfill": "^7.0.0-beta.55",
-    "@babel/preset-env": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.3.1",
     "babel-loader": "^8.0.0-beta.4",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.2",

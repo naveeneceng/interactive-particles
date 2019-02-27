@@ -135,7 +135,7 @@ export default class Particles {
 
 	initHitArea() {
 		const geometry = new THREE.PlaneGeometry(this.width, this.height, 1, 1);
-		const material = new THREE.MeshBasicMaterial({ color: 0xFFFFFF, wireframe: true, depthTest: false });
+		const material = new THREE.MeshBasicMaterial({ color: 0xFFFFF, wireframe: true, depthTest: false });
 		material.visible = false;
 		this.hitArea = new THREE.Mesh(geometry, material);
 		this.container.add(this.hitArea);

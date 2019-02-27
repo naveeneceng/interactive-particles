@@ -17,7 +17,7 @@ export default class TouchTexture {
 		this.canvas = document.createElement('canvas');
 		this.canvas.width = this.canvas.height = this.size;
 		this.ctx = this.canvas.getContext('2d');
-		this.ctx.fillStyle = 'black';
+		this.ctx.fillStyle = 'yellow';
 		this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
 		this.texture = new THREE.Texture(this.canvas);
